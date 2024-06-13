@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an Ecommerse Project">
+    <title>Ecommerse Website</title>
+    <!--FontAwesome CDN Start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--FontAwesome CDN End-->
+   <!--Link Connection of CSS-->
+    <link rel="stylesheet" href="EcommerseWebsiteMobile.css">
+    <link rel="stylesheet" href="EcommerseWebsiteDesktop.css">
+</head>
+<body>
+    <!--Navbar start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav__list">
+                <a href="EcommerseWebsite.html" class="nav__link">Home</a>
+            
+            </li>
+
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="EcommerseWebsite.html" class="nav__link">Logout</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="Images/Cv_Photo.png" alt="Profile Icon">
+                </a>
+            </li>
+        </ul>
+
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav__list">
+                <a href="EcommerseWebsite.html" class="nav__brand nav__link">Saiful Express</a>
+            </li>
+
+
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link">
+                    <span>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </span>
+                    Cart 2 products - $125.50
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+    <!--Navbar end here-->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product__details-left flex-center">
+                    <img src="Images/HeadPhone1.jpg" alt="HeadPhone">
+                </div>
+
+                <div class="product__details-right">
+                   
+                    <h3 class="product__name">Sony V-4 Headphone</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product__description">
+                        <strong>
+                            Description: 
+                        </strong>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur natus dicta laborum velit animi quidem ea aperiam, quo ad quisquam iure cupiditate facilis dolorem inventore quasi quod reiciendis tempora facere atque corporis quae commodi! Error quas vero consectetur incidunt deserunt in quisquam maiores ut? Cumque, doloribus quasi! Et, omnis voluptatibus.
+                    </p>
+                    <h4 class="product__category">Category: Headphone</h4>
+                    <h4 class="product__price">Price: $220.30</h4>
+                    <p class="product__rating">Rating: 4.5/5</p>
+                    <button class="btn product__button">Add To Cart</button>
+                    <button class="btn product__button">Back to Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+       <!--Footer stars here-->
+        <footer class="footer flex-space-around">
+            <div class="flex-space-around">
+                <label for="subscribe">Subscribe to News letter:</label>
+                <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+                <button class="btn btn-subscribe">Subscribe</button>
+            </div>
+
+            <div>
+                <p>
+                    &copy; Copyright 2024 Saiful Express. All rights Reserved
+                </p>
+            </div>
+        </footer>
+
+       <!--Footer ends here-->
+
+       <script src="Javascript/javascript.js"></script>
+</body>
+</html>
